@@ -33,6 +33,7 @@ jobs:
         with:
             apiToken: ${{ secrets.CS_API_TOKEN }}
             team: 'SVA Preview Deployments'
+            deploymentLinkType: 'preview'
             apiUrl: 'https://cloud.codesphere.com'
             plan: 'Micro'
             onDemand: true
